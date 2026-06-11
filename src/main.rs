@@ -10,8 +10,8 @@ async fn main() {
             Err(v) => {
                 println!("err: {:?}", v);
                 println!("reboot");
-            },
-            _ => {},
+            }
+            _ => {}
         }
     }
 }
